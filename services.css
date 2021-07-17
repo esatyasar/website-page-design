@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #35424a;
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav-container {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #a9508b;
+    padding-left: 3rem;
+}
+
+.header {
+
+    font-size: 2.5em;
+    color: white;
+}
+
+.clarusway-text {
+    color: #a9508b;
+}
+
+.nav-bar {
+    display: flex;
+    word-spacing: 1.5rem;
+    margin-right: 2rem;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.home-link {
+    margin-right: 3rem;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.about-link {
+    margin-right: 3rem;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.services-link {
+    margin-right: 1.5rem;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #a9508b;
+}
+
+.home-link:hover {
+    color: white;
+}
+
+.about-link:hover,
+.services-link:hover {
+    color: #a9508b;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-footer {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+h3 {
+    color: white;
+    font-size: 1.7em;
+}
+
+.email {
+    display: flex;
+    margin-right: 3rem;
+    height: 3rem;
+    width: 25%;
+}
+
+#mail {
+    margin-right: 0.5rem;
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+}
+
+::placeholder {
+    font-size: 1.2em;
+    padding-left: 0.4rem;
+}
+
+.btn {
+    width: 30%;
+    height: 100%;
+    background-color: #e8491d;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff1e00
+}
+
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+}
+
+.main-left {
+    width: 65%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+.services-title {
+    margin-bottom: 2rem;
+    font-size: 1.5em;
+}
+
+.part {
+    background-color: #e6e6e6;
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+    font-size: 1.2em;
+    border: 1px solid rgb(197, 197, 197);
+
+}
+
+h4,
+p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.main-right {
+    width: 35%;
+    margin-right: 3rem;
+
+}
+
+.form {
+    background-color: #35424a;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 4rem;
+    padding-left: 1rem;
+}
+
+.form h4 {
+    margin-top: 1rem;
+}
+
+label {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+input {
+    width: 90%;
+    height: 2.5rem;
+    padding: 0.3rem;
+    outline: none;
+}
+
+textarea {
+    width: 90%;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem;
+    outline: none;
+}
+
+textarea::placeholder {
+    padding-top: 0.3rem;
+}
+
+.btn-send {
+    width: 15%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: #e8491d;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.btn-send:hover {
+    background-color: #ff1e00;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+@media screen and (max-width:1025px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        height: 60rem;
+    }
+
+
+    .email {
+
+        width: 45%;
+    }
+
+    .btn-send {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    body {
+        font-size: 12px;
+    }
+
+    .header {
+        font-size: 1.7em;
+        color: white;
+    }
+
+    .nav-bar {
+        font-size: 1.3em;
+        margin-right: 0rem;
+
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 0rem;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .email {
+
+        width: 50%;
+    }
+
+    #mail {
+
+        font-size: 1em;
+    }
+
+    ::placeholder {
+        font-size: 1em;
+
+    }
+
+    .btn {
+        font-size: 1em;
+
+    }
+
+    .container {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-left {
+        width: 90%;
+        margin: auto;
+        padding-left: 0rem;
+    }
+
+    .main-right {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .form {
+
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+
+    .footer {
+        height: 4rem;
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+    .clarusway-logo {
+        margin-top: 0.5rem;
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width:415px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .nav-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 0rem;
+    }
+
+    .services-link {
+        margin-right: 0rem;
+    }
+
+    .nav-footer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 0rem;
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+    .email {
+
+        width: 80%;
+        margin-right: 0rem;
+    }
+
+    #mail {
+        margin-right: 0.5rem;
+        width: 70%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 1em;
+    }
+
+    ::placeholder {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+
+    .container {
+        background-color: #ffffff;
+        width: 100%;
+        height: 72rem;
+        display: flex;
+    }
+
+    .form {
+        margin-left: 0rem;
+        padding-left: 1rem;
+    }
+}
