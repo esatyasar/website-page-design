@@ -254,6 +254,13 @@ textarea::placeholder {
         width: 30%;
     }
 
+    .main-left{
+        width: 50%;
+    }
+    .main-right{
+        width:50%
+    }
+
 }
 
 @media screen and (max-width:769px) {
