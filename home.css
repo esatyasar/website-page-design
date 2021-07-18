@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     font-size: 16px;
     background-color: #35424a;
     width: 100%;
     height: 100%;
-    
+
 }
 
-.nav-container{
+.nav-container {
     width: 100%;
     height: 6rem;
     display: flex;
@@ -23,60 +23,62 @@ body{
     border-bottom: 4px solid #a9508b;
 }
 
-.header{
+.header {
     margin-left: 1.5rem;
     font-size: 2.5em;
     color: white;
 }
 
-.clarusway-text{
-    color:#a9508b;
-}
-
-.nav-bar{
-    display: flex;
-    word-spacing: 1.5rem;
-    
-}
-
-ul li{
-    list-style: none;
-}
-
-.home-link{
-    margin-right: 3rem;
-    font-size: 1.3em;
-    text-transform: uppercase; 
+.clarusway-text {
     color: #a9508b;
 }
 
-.about-link{
+.nav-bar {
+    display: flex;
+    word-spacing: 1.5rem;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.home-link {
     margin-right: 3rem;
     font-size: 1.3em;
     text-transform: uppercase;
-    color: white;  
-      
+    color: #a9508b;
 }
-.services-link{
+
+.about-link {
+    margin-right: 3rem;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.services-link {
     margin-right: 1.5rem;
     font-size: 1.3em;
     text-transform: uppercase;
     color: white;
 }
 
-.home-link:hover{
+.home-link:hover {
     color: white;
 }
 
-.about-link:hover,.services-link:hover{
+.about-link:hover,
+.services-link:hover {
     color: #a9508b;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
-.main-container{
+.main-container {
     width: 100%;
     height: 35rem;
     display: flex;
@@ -84,51 +86,52 @@ a:link{
     justify-content: center;
 }
 
-.background{
+.background {
     background-image: url(./assets/showcase.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 90%;
-    background-size:cover;
+    background-size: cover;
     text-align: center;
     background-position: center;
     margin: auto;
     align-items: center;
 }
 
-.title{
+.title {
     font-size: 3em;
-    margin-top:12rem;
+    margin-top: 12rem;
     margin-bottom: 2rem;
     color: white;
 }
 
-.para{
+.para {
     color: white;
     font-size: 1.3em;
 }
 
-.main-footer{
+.main-footer {
     width: 100%;
     height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-h3{
-    margin-left:1.5rem;
+
+h3 {
+    margin-left: 1.5rem;
     color: white;
     font-size: 1.7em;
 }
 
-.email{
+.email {
     display: flex;
     margin-right: 1.5rem;
     height: 3rem;
     width: 25%;
 }
 
-#mail{
+#mail {
     margin-right: 0.5rem;
     width: 70%;
     height: 100%;
@@ -136,12 +139,13 @@ h3{
     outline: none;
     font-size: 1.2em;
 }
-::placeholder{
+
+::placeholder {
     font-size: 1.2em;
     padding-left: 0.4rem;
 }
 
-.btn{
+.btn {
     width: 30%;
     height: 100%;
     background-color: #e8491d;
@@ -149,12 +153,13 @@ h3{
     font-size: 1.2em;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #ff1e00
 }
 
-.section{
-    background-color:#f4f4f4;
+.section {
+    background-color: #f4f4f4;
     width: 100%;
     display: flex;
     /* justify-content: space-evenly; */
@@ -162,25 +167,28 @@ h3{
     height: 18rem;
 }
 
-.img{
+.img {
     text-align: center;
     width: 33.33%;
-    margin-left:1.5rem;
+    margin-left: 1.5rem;
     margin-right: 1rem;
 }
-.logo{
+
+.logo {
     width: 15%;
 }
-h4{
+
+h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.5em;
 }
-.img p{
+
+.img p {
     font-size: 1.2em;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,118 +202,132 @@ h4{
 
 @media screen and (max-width:1024px) {
 
-    body{
+    body {
         font-size: 14px;
     }
-    .main-container{
+
+    .main-container {
         height: 50rem;
     }
-    .section{
+
+    .section {
         height: 28rem;
     }
-    .email{
-    width: 40%;
+
+    .email {
+        width: 40%;
     }
-    
-    .title{
+
+    .title {
         margin-top: 18rem;
     }
-    
+
 }
 
 @media screen and (max-width:769px) {
 
-    .header{
-    font-size: 1.5em;
+    .header {
+        font-size: 1.5em;
     }
-    .footer{
+
+    .footer {
         height: 4rem;
         width: 100%;
         margin-top: 2rem;
         margin-bottom: 2rem;
         color: white;
     }
-    .clarusway-logo{
+
+    .clarusway-logo {
         margin-top: 0.5rem;
         width: 25%;
     }
 }
 
-@media screen and (max-width:415px){
+@media screen and (max-width:415px) {
 
-    body{
+    body {
         font-size: 12px;
     }
-    .nav-container{
+
+    .nav-container {
         flex-direction: column;
         justify-content: space-around;
     }
-    .services-link{
+
+    .services-link {
         margin-right: 0rem;
     }
-    
-    .para{
-    padding-left: 2rem;
-    padding-right: 2rem;
+
+    .para {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
-    .title{
+
+    .title {
         margin-top: 12rem;
     }
-    .main-container{
+
+    .main-container {
         height: 40rem;
     }
-    
-.main-footer{
-    flex-direction: column;
-    justify-content: space-around;
-}
-h3{
-    
-    font-size: 1.5em;
-}
 
-.email{
-    margin-right: 0rem;
-    height: 2rem;
-    width: 80%;
-}
+    .main-footer {
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
-#mail{
-    font-size: 1em;
-}
-::placeholder{
-    font-size: 1em;
-}
+    h3 {
 
-.btn{
-    font-size: 1em;
-}
+        font-size: 1.5em;
+    }
 
-.section{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 54rem;
-}
+    .email {
+        margin-right: 0rem;
+        height: 2rem;
+        width: 80%;
+    }
 
-.img{
-    text-align: center;
-    width: 50%;
-    
-}
-.logo{
-    width: 50%;
-}
-h4{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1.5em;
-}
-.img p{
-    font-size: 1.2em;
-}
+    #mail {
+        font-size: 1em;
+    }
 
-    
+    ::placeholder {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+
+    .section {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 54rem;
+    }
+
+    .img {
+        text-align: center;
+        width: 50%;
+
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    h4 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.5em;
+    }
+
+    .img p {
+        font-size: 1.2em;
+    }
+
+
 }
